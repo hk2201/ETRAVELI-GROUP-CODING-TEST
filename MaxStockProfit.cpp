@@ -27,6 +27,9 @@ int main(){
 
     int ans = maxProfit(stocks);
 
+    if(ans == 0){
+        cout<<"No Profit";
+    }
     cout<<"The Maximum Profit obtained is "<<ans;
 
 
